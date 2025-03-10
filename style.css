@@ -1,0 +1,1065 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.ekran {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ekran img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: 'Newyork-Heavy';
+    src: url('./font/newyork/NewYorkExtraLarge-Heavy.otf') format('opentype');
+    font-style: normal;
+}
+
+.yazi {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    left: 50px;
+    top: 22px;
+}
+
+.yazi img {
+    top: 25px;
+    left: 23px;
+    width: 174px;
+    height: 40px;
+}
+
+@font-face {
+    font-family: "NewYorkExtraLarge-Regularltalic";
+    src: url("fonts/NewYorkExtraLarge-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.radi h1 {
+    position: relative;
+    top: 210px;
+    left: 117px;
+    font-family: "NewYorkExtraLarge-Regularltalic", sans-serif;
+    font-size: 89px;
+    font-weight: lighter;
+}
+
+.tirnaksol {
+    font-weight: lighter;
+    position: relative;
+    font-size: 44px;
+    top: 100px;
+    left: 79px;
+}
+
+.tirnaksag {
+    font-weight: lighter;
+    font-size: 44px;
+    position: relative;
+    top: 126px;
+    left: 775px;
+}
+
+.parag img {
+    width: 463px;
+    height: 53px;
+    position: relative;
+    top: 119px;
+    left: 118px;
+}
+
+@font-face {
+    font-family: "NewYorLarge-Heavy";
+    src: url("fonts/NewYorkLarge-Heavy.otf") format("opentype");
+    font-style: normal;
+}
+
+.text p {
+    position: relative;
+    top: 180px;
+    left: 119px;
+    font-family: "NewYorLarge-Heavy", sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    position: absolute;
+    top: 49px;
+    right: 67px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(251, 133, 133);
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: rgba(200, 0, 0, 1);
+    transform: scale(0.9);
+}
+
+
+
+.ekran2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -66px;
+}
+
+.ekran-container img {
+    width: 89%;
+    height: auto;
+    display: block;
+    position: relative;
+    left: -379px;
+    z-index: 100;
+}
+
+.ekranh2 h2 {
+    position: relative;
+    right: -299px;
+    top: -273px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "NewYorMedium-Regularltalic";
+    src: url("fonts/NewYorMedium-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.ekranh2 h3 {
+    font-family: "NewYorMedium-Regularltalic", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    position: relative;
+    top: -262px;
+    right: -347px;
+}
+
+@font-face {
+    font-family: "NewYorLarge-Heavy";
+    src: url("fonts/NewYorkLarge-Heavy.otf") format("opentype");
+    font-style: normal;
+}
+
+.ekran-container p {
+    font-family: "NewYorLarge-Heavy", sans-serif;
+    position: relative;
+    top: -218px;
+    right: -398px;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -179px;
+}
+
+.box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 img {
+    width: 100%;
+    height: 61vh;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.boxs-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10;
+    color: #000000;
+}
+
+.boxs-container h1 {
+    font-size: 2.6rem;
+    position: relative;
+    top: -12px;
+    margin-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+    font-family: "NewYorMedium-Regularltalic";
+    src: url("fonts/NewYorMedium-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.boxs-container p {
+    position: relative;
+    top: -8px;
+    font-size: 19px;
+    font-family: "NewYorMedium-Regularltalic", sans-serif;
+    font-weight: lighter;
+}
+
+.boxs-container img {
+    width: 550pxpx;
+    height: 81vh;
+}
+
+
+.containerr-text h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: -77px;
+    left: 650px;
+    z-index: 25;
+}
+
+.containerr-text p {
+    font-size: 21px;
+    font-family: sans-serif;
+    position: relative;
+    left: 622px;
+    top: -67px;
+}
+
+.text-img {
+    position: relative;
+    left: 738px;
+    top: -55px;
+}
+
+.colon1 {
+    position: relative;
+    top: -25px;
+    left: 71px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.img1 {
+    position: relative;
+    left: -477px;
+    top: 190px;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.img1s {
+    position: relative;
+    left: -513px;
+    top: -170px;
+    width: 401px;
+    height: auto;
+    z-index: 2;
+}
+
+.colonh1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.colon1 .text-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    text-align: center;
+    width: 80%;
+    color: #000000;
+}
+
+.colonh1 h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    position: absolute;
+    top: -166px;
+    left: -455px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colonh1 h2 {
+    font-size: 1.5em;
+    position: relative;
+    top: -160px;
+    left: -572px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colonh1 p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -512px;
+    top: -122px;
+}
+
+.ps {
+    margin-bottom: 25px;
+    font-size: 15.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -28px;
+    top: -25px;
+}
+
+.sol {
+    border: none;
+    color: #000000;
+    background-color: #EDDCD8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    left: -515px;
+    top: -100px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 15px 35px;
+    backdrop-filter: blur(5px);
+}
+
+.sag {
+    border: none;
+    color: #000000;
+    background-color: #EDDCD8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    left: -496px;
+    top: -99px;
+    border-radius: 30px;
+    padding: 15px 33px;
+    backdrop-filter: blur(5px);
+}
+
+.sag:hover {
+    color: #000;
+    background: white;
+    transform: translateY(-3px);
+}
+
+.sol:hover {
+    color: #000;
+    background: white;
+    transform: translateY(-3px);
+}
+
+
+.colon2 {
+    position: relative;
+    width: fit-content;
+    left: 504px;
+    top: -545px;
+    margin: 0 auto;
+}
+
+.img2 {
+    position: relative;
+    left: -477px;
+    top: 190px;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.img2s {
+    position: relative;
+    left: -513px;
+    top: -170px;
+    width: 401px;
+    height: auto;
+    z-index: 2;
+}
+
+.colonh2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.colon2 .text-contentt {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    text-align: center;
+    width: 80%;
+    color: #000000;
+}
+
+.colonh2 h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    position: absolute;
+    top: -166px;
+    left: -455px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colonh2 h2 {
+    font-size: 1.5em;
+    position: relative;
+    top: -160px;
+    left: -572px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colonh2 p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -505px;
+    top: -100px;
+}
+
+.sols {
+    border: none;
+    color: #000000;
+    background-color: rgb(238, 250, 246);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    left: -566px;
+    top: 19px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 15px 35px;
+    backdrop-filter: blur(5px);
+}
+
+.sols:hover {
+    color: #000;
+    background: white;
+    transform: translateY(-3px);
+}
+
+
+.colon3 {
+    position: relative;
+    width: fit-content;
+    right: -937px;
+    top: -1065px;
+    margin: 0 auto;
+}
+
+.img3 {
+    position: relative;
+    left: -477px;
+    top: 190px;
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.img3s {
+    position: relative;
+    left: -513px;
+    top: -170px;
+    width: 401px;
+    height: auto;
+    z-index: 2;
+}
+
+.colonh3 {
+    position: absolute;
+    top: 401px;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.colon3 .text-contenttt {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    text-align: center;
+    width: 80%;
+    color: #000000;
+}
+
+.colonh3 h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    position: absolute;
+    top: -166px;
+    left: -455px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colonh3 p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -512px;
+    top: -100px;
+}
+
+.soll {
+    border: none;
+    color: #000000;
+    background-color: rgb(238, 250, 246);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    left: -566px;
+    top: 19px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 15px 35px;
+    backdrop-filter: blur(5px);
+}
+
+.soll:hover {
+    color: #000;
+    background: white;
+    transform: translateY(-3px);
+}
+
+.box-container .ekran3 {
+    position: relative;
+    top: -873px;
+    left: 127px;
+    padding: 15px 16px;
+}
+
+.box-container .ekran4 {
+    position: relative;
+    top: -1340px;
+    left: 162px;
+}
+
+.box2 img {
+    position: relative;
+    top: -1725px;
+    left: 999px;
+}
+
+.box2 .otuz {
+    position: relative;
+    top: -1735px;
+    left: 924px;
+}
+
+@font-face {
+    font-family: "NewYorLarge-Heavy";
+    src: url("fonts/NewYorkLarge-Heavy.otf") format("opentype");
+    font-style: normal;
+}
+
+.h1yazi {
+    position: relative;
+    left: 1000px;
+    top: -1700px;
+    font-size: 23px;
+    font-family: "NewYorLarge-Heavy", sans-serif;
+    padding: 4px 0px;
+}
+
+
+@font-face {
+    font-family: "NewYorLarge-Heavy";
+    src: url("fonts/NewYorkLarge-Heavy.otf") format("opentype");
+    font-style: normal;
+}
+
+
+.ekranp {
+    position: relative;
+    top: -1677px;
+    left: 1002px;
+    font-family: "NewYorLarge-Heavy", sans-serif;
+    font-size: 14px;
+
+}
+
+.class {
+    position: relative;
+    top: -1677px;
+    left: 1002px;
+    font-family: "NewYorLarge-Heavy", sans-serif;
+    font-size: 14px;
+}
+
+.buttons {
+    position: relative;
+    top: -1620px;
+    left: 1008px;
+    border: none;
+    color: #000000;
+    background-color: #EDDCD8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px 35px;
+    backdrop-filter: blur(5px);
+}
+
+.buttons:hover {
+    color: #000;
+    background: white;
+    transform: translateY(-3px);
+}
+
+.buttonss {
+    position: relative;
+    top: -1620px;
+    left: 1020px;
+    border: none;
+    color: #000000;
+    background-color: #EDDCD8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px 35px;
+    backdrop-filter: blur(5px);
+}
+
+.buttonss:hover {
+    color: #000;
+    background: white;
+    transform: translateY(-3px);
+}
+
+.rutinimg img {
+    position: relative;
+    width: 315px;
+    height: 489px;
+    top: -1440px;
+    left: 300px;
+    z-index: 2;
+    border-radius: 60px;
+}
+
+.rutinimg .renk {
+    position: relative;
+    width: 315px;
+    height: 450px;
+    top: -1420px;
+    left: -18px;
+    z-index: 1;
+}
+
+.logo img {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    position: relative;
+    left: 195px;
+    top: -925px;
+}
+
+.rutin h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-weight: lighter;
+    font-size: 38px;
+    left: 675px;
+    top: -1820px;
+}
+
+@font-face {
+    font-family: "NewYorMedium-Regularltalic";
+    src: url("font/NewYorMedium-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.rutin h2 {
+    font-family: "NewYorMedium-Regularltalic", sans-serif;
+    color: #CFA493;
+    font-size: 65px;
+    position: relative;
+    left: 711px;
+    top: -1810px;
+}
+
+@font-face {
+    font-family: "NewYorMedium-Regularltalic";
+    src: url("font/NewYorMedium-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.rutinp p {
+    font-family: "NewYorMedium-Regularltalic", sans-serif;
+    position: relative;
+    left: 737px;
+    top: -1790px;
+    font-size: 18px;
+}
+
+.rutinp .lorem {
+    padding: 8px 0px;
+    font-size: 16px;
+}
+
+.rutinbutton button {
+    position: relative;
+    top: -1715px;
+    left: 743px;
+    background: #EDDCD8;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.rutinbutton button i {
+    color: white;
+    font-size: 25px;
+}
+
+
+.Yorum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+@font-face {
+    font-family: "NewYorMedium-Regularltalic";
+    src: url("font/NewYorMedium-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.yorumlar h1 {
+    text-align: center;
+    position: relative;
+    top: -1600px;
+    font-size: 42px;
+    font-family: "NewYorMedium-Regularltalic", sans-serif;
+
+}
+
+.yorum-container {
+    position: relative;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.birinci {
+    display: none;
+}
+
+.birinci.active {
+    display: block;
+}
+
+.birinci img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -1549px;
+    left: 10px;
+}
+
+@font-face {
+    font-family: "NewYorMedium-Regularltalic";
+    src: url("font/NewYorMedium-Regularltalic.otf") format("opentype");
+    font-style: normal;
+}
+
+.birinci h2 {
+    font-family: "NewYorMedium-Regularltalic", sans-serif;
+    position: relative;
+    top: -1520px;
+    left: 10px;
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: "NewYorMedium-SemiBold";
+    src: url("font/NewYorkLarge-Bold.otf") format("opentype");
+    font-style: normal;
+}
+
+.birinci p {
+    font-family: "NewYorMedium-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    top: -1490px;
+}
+
+.star i {
+    color: #CFA493;
+    font-size: 20px;
+    position: relative;
+    top: -1430px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.icon div {
+    cursor: pointer;
+    font-size: 40px;
+    color: #CFA59D;
+    transition: 0.3s;
+    font-weight: 500px;
+}
+
+.icon div:hover {
+    color: #000;
+}
+
+.solicon {
+    position: absolute;
+    left: -90px;
+    position: relative;
+    top: -1500px;
+}
+
+.sagicon {
+    position: absolute;
+    right: -90px;
+    position: relative;
+    top: -1500px;
+}
+
+
+.containers {
+    display: flex;
+    width: 100%;
+    gap: 0;
+}
+
+.container1,
+.container2 {
+    position: relative;
+    width: 50%;
+    top: -1400px;
+}
+
+.tema img,
+.tema1 img {
+    width: 100%;
+    height: 150px;
+}
+
+@font-face {
+    font-family: "NewYorMedium-SemiBold";
+    src: url("font/NewYorkLarge-Bold.otf") format("opentype");
+    font-style: normal;
+}
+
+.container1 h1 {
+    font-family: "NewYorMedium-SemiBold", sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -110px;
+    font-size: 24px;
+}
+
+.container1 p {
+    font-family: "NewYorMedium-SemiBold", sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: #707070;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -79px;
+    transform: translateY(-50%);
+    font-size: 17px;
+}
+
+.container2 p {
+    top: 65%;
+    font-size: 16px;
+    position: absolute;
+    color: #707070;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.container2 p {
+    position: relative;
+    top: -77px;
+    right: 260px;
+}
+
+.container2 button {
+    position: absolute;
+    top: 24%;
+    left: 60%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background: #E7C6BD;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 32px;
+    padding: 17px 25px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container2 button img {
+    width: 20px;
+}
+
+.container2 button:hover {
+    background: white;
+}
+
+.text-container h1 {
+    position: relative;
+    top: -1370px;
+    left: 537px;
+    font-size: 43px;
+}
+
+.text-container p {
+    font-family: "NewYorMedium-SemiBold", sans-serif;
+    position: relative;
+    top: -1358px;
+    left: 525px;
+    font-size: 20px;
+}
+
+.social-media {
+    font-size: 29px;
+    position: relative;
+    top: -1270px;
+    left: 695px;
+}
+
+.social-media i {
+    background: #CFA493;
+    padding: 9px;
+    border-radius: 50px;
+    width: 48px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -45px;
+}
+
+.footer-text p {
+    font-size: 18px;
+    font-family: "NewYorMedium-Regular", sans-serif;
+    position: relative;
+    top: -1198px;
+    left: 620px;
+}
+
+.textfooter {
+    font-family: "NewYorMedium-Regular", sans-serif;
+    position: relative;
+    font-size: 15px;
+    top: -1120px;
+    left: 650px;
+    color: #000000;
+}
